@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//catalinafgh.github.io/DataLoversReactVersion/static/css/main.db527dcc.css",
-    "main.js": "//catalinafgh.github.io/DataLoversReactVersion/static/js/main.7d8b7f48.js",
-    "static/media/logo3.png": "//catalinafgh.github.io/DataLoversReactVersion/static/media/logo3.ee0728d37d964ffaa011.png",
-    "static/media/series.png": "//catalinafgh.github.io/DataLoversReactVersion/static/media/series.a218ca229093de6f08d2.png",
-    "static/media/wallpaper.jpg": "//catalinafgh.github.io/DataLoversReactVersion/static/media/wallpaper.22d359dd0bf20c1c4a74.jpg",
-    "index.html": "//catalinafgh.github.io/DataLoversReactVersion/index.html",
-    "main.db527dcc.css.map": "//catalinafgh.github.io/DataLoversReactVersion/static/css/main.db527dcc.css.map",
-    "main.7d8b7f48.js.map": "//catalinafgh.github.io/DataLoversReactVersion/static/js/main.7d8b7f48.js.map"
+    "main.css": "/DataLoversReactVersion/static/css/main.f9c59154.css",
+    "main.js": "/DataLoversReactVersion/static/js/main.feef5274.js",
+    "static/media/logo3.png": "/DataLoversReactVersion/static/media/logo3.ee0728d37d964ffaa011.png",
+    "static/media/series.png": "/DataLoversReactVersion/static/media/series.a218ca229093de6f08d2.png",
+    "static/media/wallpaper.jpg": "/DataLoversReactVersion/static/media/wallpaper.22d359dd0bf20c1c4a74.jpg",
+    "index.html": "/DataLoversReactVersion/index.html",
+    "main.f9c59154.css.map": "/DataLoversReactVersion/static/css/main.f9c59154.css.map",
+    "main.feef5274.js.map": "/DataLoversReactVersion/static/js/main.feef5274.js.map"
   },
   "entrypoints": [
-    "static/css/main.db527dcc.css",
-    "static/js/main.7d8b7f48.js"
+    "static/css/main.f9c59154.css",
+    "static/js/main.feef5274.js"
   ]
 }
