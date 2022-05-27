@@ -1,11 +1,9 @@
 # PROJECT DEMO:
 
-[Rick & Morty Data Lovers](https://CatalinaFGH.github.io/data-lovers)
+[Rick & Morty Data Lovers](https://catalinafgh.github.io/DataLoversReactVersion/)
 
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
