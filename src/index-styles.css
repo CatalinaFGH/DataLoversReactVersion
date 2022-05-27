@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ 
+/* Se le aplica el efecto de movimiento a la imagen de fondo */
+body{
+    background-image: url(images/wallpaper.jpg);
+    animation: muv 5s infinite linear alternate;
+}
+ @keyframes muv{
+    from{
+      background-position: top;
+    }
+    to{
+      background-position: center;
+    }
+  }
