@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from '../../images/logo3.png';
+
+import { Text } from './DataPage-styles';
 
 const DataPage = () => {
   return (
     <div>
-      <img src={logo} alt='RM-logo' />
-      </div>
+      <Text>DATA PAGE</Text>
+    </div>
   )
 }
 
