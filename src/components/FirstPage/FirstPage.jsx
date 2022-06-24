@@ -1,7 +1,9 @@
 import React from 'react';
-
-import logo from '../images/logo3.png';
-import image from '../images/series.png';
+import { Link } from "react-router-dom";
+// *Images
+import logo from '../../images/logo3.png';
+import image from '../../images/series.png';
+// *Styles
 import { FirstPageContainer, LogoImageContainer, LogoImage, EnterButtonContainer, EnterButton, MainImageContainer, MainImage } from './FirstPage-styles';
 
 const FirstPage = () => {
@@ -10,7 +12,9 @@ const FirstPage = () => {
       <LogoImageContainer>
         <LogoImage src={logo} alt='RM-logo' />
         <EnterButtonContainer>
-          <EnterButton>ENTER</EnterButton>
+          <Link to="/data-page">
+           <EnterButton>ENTER</EnterButton>
+          </Link>
         </EnterButtonContainer>
       </LogoImageContainer>
       <MainImageContainer>
