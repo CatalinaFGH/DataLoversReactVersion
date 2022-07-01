@@ -14,6 +14,7 @@ export const LogoImageContainer = styled.div`
 
 export const LogoImage = styled.img`
   height: 35vh;
+  width: auto;
 `;
 
 export const EnterButtonContainer = styled.div`
