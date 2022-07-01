@@ -21,7 +21,7 @@ const FirstPage = () => {
         <LogoImage src={logo} alt="RM-logo" />
         <EnterButtonContainer>
           <Link to="/datapage">
-            <EnterButton>ENTER</EnterButton>
+            <EnterButton onClick={ () => {console.log('second page GO!')}}>ENTER</EnterButton>
           </Link>
         </EnterButtonContainer>
       </LogoImageContainer>
