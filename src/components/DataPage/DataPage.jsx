@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import DataPageCard from '../DataPageCard/DataPageCard';
 
-import { Text, CharacterInfoContainer, CharacterImage, DataPageContainer } from './DataPage-styles';
+import { Text, DataPageContainer } from './DataPage-styles';
 
 const DataPage = () => {
 
@@ -18,16 +18,6 @@ const DataPage = () => {
     });
   }, []);
 
-  // const theSpecificData = values.map((item) => {
-  //   return {
-  //     id: item.id,
-  //     name: item.name,
-  //     species: item.species,
-  //     gender: item.gender,
-  //   };
-  // });
-  // console.log('PERSONAJES:', theSpecificData[0]);
-
   return (
     <DataPageContainer>
       <Text>DATA PAGE</Text>
@@ -35,16 +25,6 @@ const DataPage = () => {
       <DataPageCard
       characters={values}
       />
-      
-      {/* {values.map((item) =>
-            <CharacterInfoContainer key={item.id}>
-              <p>ID: <span>{item.id }</span></p>
-              <p>Name: <span>{item.name}</span></p>
-              <CharacterImage src={item.image}></CharacterImage>
-              <p>Species: <span>{item.species}</span></p>
-              <p>Gender: <span>{item.gender}</span></p>
-            </CharacterInfoContainer>)} */}
-
     </DataPageContainer>
   )
 }
